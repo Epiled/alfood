@@ -4,7 +4,7 @@ Projeto do curso <a href="https://cursos.alura.com.br/course/react-integrando-pr
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Alfood**
-| :label: Tecnologias | html, css, js, sass, node, react, typescript, css modules, axios, docker
+| :label: Tecnologias | html, css, js, sass, node, react, typescript, css modules, axios, mui, docker, swagger
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![thumb-aluroni-2](https://github.com/Epiled/aluroni-2-router/assets/55258483/4be912b8-cf45-4a92-9431-1e4e8474ac89#vitrinedev)
@@ -13,7 +13,23 @@ Projeto do curso <a href="https://cursos.alura.com.br/course/react-integrando-pr
 
 Neste projeto, implementamos uma área de administração para a empresa Alfood com um sistema de CMS para gerenciar restaurantes e pratos. O sistema possui um CRUD completo e funcional.
 
+Para os usuários, desenvolvemos um sistema de busca que facilita a localização de restaurantes de seu interesse, além de implementar um eficiente sistema de paginação.
+
+Dentro do projeto, apresentamos duas versões dessas funcionalidades:
+
+1. **Sistema de Busca e Paginação por Scroll Infinito:**
+   - Busca: Orientada pelo nome do restaurante.
+   - Paginação: Implementada de forma dinâmica, permitindo uma experiência contínua e intuitiva.
+
+2. **Sistema de Busca e Paginação por Páginas:**
+   - Busca: Inclui um campo adicional para especificar a ordenação desejada.
+   - Paginação: Estruturada por páginas, oferecendo uma abordagem mais clássica e organizada.
+
+Essas versões proporcionam diferentes experiências de uso, atendendo às preferências e necessidades dos usuários.
+
 Utilizamos React com TypeScript para o desenvolvimento, garantindo um código de qualidade com a ajuda do ESLint. O estilo foi aplicado usando CSS Modules e Sass.
+
+Dado o foco funcional do projeto, concentrando-se na compreensão do consumo de API em React por meio do Axios, optou-se por manter um design simples e intuitivo.
 
 ![Badge](https://img.shields.io/github/last-commit/Epiled/alfood?style=for-the-badge)
 ![Badge](https://img.shields.io/github/languages/code-size/Epiled/alfood?style=for-the-badge)
@@ -28,10 +44,12 @@ Utilizamos React com TypeScript para o desenvolvimento, garantindo um código de
 ![Badge](https://img.shields.io/badge/-Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![Badge](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Badge](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Badge](https://img.shields.io/badge/-Typescript-3178C6?style=for-the-badge&logo=json&logoColor=white)
+![Badge](https://img.shields.io/badge/-Typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Badge](https://img.shields.io/badge/-CSS%20Modules-000000?style=for-the-badge&logo=cssmodules&logoColor=white)
-![Badge](https://img.shields.io/badge/-Typescript-3178C6?style=for-the-badge&logo=json&logoColor=white)
-![Badge](https://img.shields.io/badge/-CSS%20Modules-000000?style=for-the-badge&logo=cssmodules&logoColor=white)
+![Badge](https://img.shields.io/badge/-Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+![Badge](https://img.shields.io/badge/-MUI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
+![Badge](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Badge](https://img.shields.io/badge/-Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 
 <h2> 📑 Tabela de Conteúdos </h2>
 
@@ -39,9 +57,9 @@ Utilizamos React com TypeScript para o desenvolvimento, garantindo um código de
    * [Detalhes do projeto](#detalhes-do-projeto)
    * [Tópicos Desenvolvidos](#topicos-curso)
    * [Demonstração](#demonstracao)
-     - [Início](#inicio)
-     - [Cardapio](#cardapio)
-     - [Sobre](#sobre)
+     - [Home](#inicio)
+     - [Restaurantes V1 Scroll Infinito](#cardapio)
+     - [Restaurantes V2 Paginação por Páginas](#sobre)
      - [Prato](#prato)
      - [Not Found 404](#notFound404)
    * [Pré-Requisito](#pre-requisito)
@@ -64,35 +82,41 @@ Utilizamos React com TypeScript para o desenvolvimento, garantindo um código de
 
 <h2 id="demonstracao"> 👀 Demonstração </h2>
 
-<h3 id="inicio"> Início </h3>
+<h3 id="inicio"> Home </h3>
 
-https://github.com/Epiled/aluroni-2-router/assets/55258483/65004157-72ab-4979-9542-c64583196d21
 
-https://github.com/Epiled/aluroni-2-router/assets/55258483/9beeb7ab-0f8d-4b8a-b5a1-8b3e03c94286
 
-<h3 id="cardapio"> Cardapio </h3>
+<h3 id="cardapio"> Restaurantes V1 Scroll Infinito </h3>
 
-https://github.com/Epiled/aluroni-2-router/assets/55258483/a55b9681-7434-47e8-9db8-b5c2b6745e15
 
-https://github.com/Epiled/aluroni-2-router/assets/55258483/c50e4d65-c10c-4187-a3bb-c15859ff1c96
 
-<h3 id="sobre"> Sobre </h3>
+<h3 id="cardapio"> Restaurantes V2 Paginação por Páginas </h3>
 
-https://github.com/Epiled/aluroni-2-router/assets/55258483/6f1861fa-62e5-4c31-80db-842357ac5fa9
 
-https://github.com/Epiled/aluroni-2-router/assets/55258483/f2fa2ad6-b50a-4165-9b8b-27e29993d50b
 
-<h3 id="prato"> Prato </h3>
+<h3 id="sobre"> Admin - Restaurantes </h3>
 
-https://github.com/Epiled/aluroni-2-router/assets/55258483/00c2ebad-8702-49d6-8a90-633009b6bb9a
 
-https://github.com/Epiled/aluroni-2-router/assets/55258483/4d314941-8df8-4953-ab97-025c8fa48fb5
 
-<h3 id="notFound404"> Not Found 404 </h3>
+<h3 id="prato"> Admin - Novo Restaurante </h3>
 
-https://github.com/Epiled/aluroni-2-router/assets/55258483/dcab9311-a639-42a6-b135-7ce38aa8ea75
 
-https://github.com/Epiled/aluroni-2-router/assets/55258483/a74bbc06-a447-4f2e-8177-1df4c0e20138
+
+<h3 id="prato"> Admin - Editar Restaurante </h3>
+
+
+
+<h3 id="notFound404"> Admin - Pratos </h3>
+
+
+
+<h3 id="notFound404"> Admin - Novo Prato </h3>
+
+
+
+<h3 id="notFound404"> Admin - Editar Prato </h3>
+
+
 
 <h2 id="pre-requisito"> 🚨 Pré-requisito </h2>
 <ul>
@@ -103,17 +127,44 @@ https://github.com/Epiled/aluroni-2-router/assets/55258483/a74bbc06-a447-4f2e-81
 <h2 id="instalacao"> ⚙ Instalação </h2>
 
 ```
-1. git clone https://github.com/Epiled/aluroni-2-router.git
-2. cd aluroni-2-router
-3. npm install
+1. git clone https://github.com/Epiled/alfood.git
+```
+
+<h3 id="site-dependencias">Site e suas dependências</h3>
+
+```
+1. cd alfood-site
+2. npm install
+```
+
+<h3 id="site-dependencias">API Docker</h3>
+
+Inicie o Dockerc antes de executar os comandos no terminal
+
+```
+1. cd restaurantes_api_docker
+2. docker-compose build
 ```
 
 <h2 id="como-usar"> 👩‍🏫 Como usar </h2>
 
+<h3>Inciando o site</h3>
+
 ```
-1. npm start
-2. Caso a url não abra sozinha acesse através deste caminho http://localhost:3000/
+1. Abra o diretório alfood-site no terminal
+2. npm start
+3. Acesse a url http://localhost:3000/
 ```
+
+<h3>Inciando o site</h3>
+
+```
+1. Abra o diretório restaurantes_api_docker no terminal
+2. docker-compose up
+3. Acesse a url http://localhost:8000/
+```
+
+A documentação completa do Swagger, que explica em detalhes o funcionamento e o uso da API, está disponível na URL gerada.
 
 <h2 id="tecnologias"> 🛠 Tecnologias </h2>
 
@@ -123,12 +174,15 @@ As seguintes tecnologias foram usadas na construção deste projeto:
   <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML5</a></li>
   <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS3</a></li>
   <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">JavaScript</a></li>
-  <li><a href="https://nodejs.org/en" target="_blank">Node.js</a></li>
   <li><a href="https://sass-lang.com/" target="_blank">Sass</a></li>
-  <li><a href="https://www.npmjs.com/package/typescript-plugin-css-modules" target="_blank">CSS Modules</a></li>
+  <li><a href="https://nodejs.org/en" target="_blank">Node.js</a></li>
   <li><a href="https://react.dev/" target="_blank">React</a></li>
   <li><a href="https://www.typescriptlang.org/" target="_blank">Typescript</a></li>
-  <li><a href="https://www.typescriptlang.org/" target="_blank">Docker</a></li>
+  <li><a href="https://www.npmjs.com/package/typescript-plugin-css-modules" target="_blank">CSS Modules</a></li>
+  <li><a href="https://axios-http.com/ptbr/docs/intro" target="_blank">Axios</a></li>
+  <li><a href="https://mui.com/" target="_blank">MUI</a></li>
+  <li><a href="https://www.docker.com/" target="_blank">Docker</a></li>
+  <li><a href="https://swagger.io/" target="_blank">Swagger</a></li>
 </ul>
 
 <h2 id="autor"> 👨‍💻 Autor </h2>
