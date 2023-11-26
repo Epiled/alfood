@@ -57,18 +57,18 @@ Dado o foco funcional do projeto, concentrando-se na compreensão do consumo de 
    * [Detalhes do projeto](#detalhes-do-projeto)
    * [Tópicos Desenvolvidos](#topicos-curso)
    * [Demonstração](#demonstracao)
-     - [Home](#inicio)
-     - [Restaurantes V1 Scroll Infinito](#cardapio)
-     - [Restaurantes V2 Paginação por Páginas](#sobre)
-     - [Admin - Restaurantes](#prato)
-     - [Admin - Novo Restaurante](#notFound404)
-     - [Admin - Editar Restaurante](#notFound404)
-     - [Admin - Excluir Restaurante](#notFound404)
-     - [Admin - Pratos](#notFound404)
-     - [Admin - Novo Prato](#notFound404)
-     - [Admin - Editar Prato](#notFound404)
-     - [Admin - Excluir Prato](#notFound404)
-     - [Documentação Swagger](#notFound404)
+     - [Home](#home)
+     - [Restaurantes V1 Scroll Infinito](#restaurantes-v1)
+     - [Restaurantes V2 Paginação por Páginas](#restaurantes-v2)
+     - [Admin - Restaurantes](#admin-restaurantes)
+     - [Admin - Novo Restaurante](#admin-novo-restaurante)
+     - [Admin - Editar Restaurante](#admin-editar-restaurante)
+     - [Admin - Excluir Restaurante](#admin-excluir-restaurante)
+     - [Admin - Pratos](#admin-pratos)
+     - [Admin - Novo Prato](#admin-novo-prato)
+     - [Admin - Editar Prato](#admin-editar-prato)
+     - [Admin - Excluir Prato](#admin-excluir-prato)
+     - [Documentação Swagger](#documentacao-swagger)
    * [Pré-Requisito](#pre-requisito)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
@@ -89,51 +89,50 @@ Dado o foco funcional do projeto, concentrando-se na compreensão do consumo de 
 
 <h2 id="demonstracao"> 👀 Demonstração </h2>
 
-<h3 id="inicio"> Home </h3>
+<h3 id="home"> Home </h3>
+
+https://github.com/Epiled/alfood/assets/55258483/dc16d154-1054-43d5-a0ce-221b6ec93910
+
+<h3 id="restaurantes-v1"> Restaurantes V1 Scroll Infinito </h3>
+
+https://github.com/Epiled/alfood/assets/55258483/e23a96bc-ec81-48d2-8015-3c42d160248a
+
+<h3 id="restaurantes-v2"> Restaurantes V2 Paginação por Páginas </h3>
+
+https://github.com/Epiled/alfood/assets/55258483/01d6f129-2159-48a1-b1cd-e3fd0806ebf2
+
+<h3 id="admin-restaurantes"> Admin - Restaurantes </h3>
+
+https://github.com/Epiled/alfood/assets/55258483/52a1f502-82f4-4b2e-8352-797f61312c94
+
+<h3 id="admin-novo-restaurante"> Admin - Novo Restaurante </h3>
+
+https://github.com/Epiled/alfood/assets/55258483/bebc8533-9c59-4077-9c82-b78b3e5d0f28
+
+<h3 id="admin-editar-restaurante"> Admin - Editar Restaurante </h3>
+
+https://github.com/Epiled/alfood/assets/55258483/f3bd2e0c-bcd0-4ced-bbe9-324d20655f42
+
+<h3 id="admin-excluir-restaurante"> Admin - Excluir Restaurante </h3>
+
+https://github.com/Epiled/alfood/assets/55258483/ff5545b1-6a5c-43ac-ad19-73e5a46f4c94
+
+<h3 id="admin-pratos"> Admin - Pratos </h3>
+
+https://github.com/Epiled/alfood/assets/55258483/19f067b8-3288-4976-ba0b-8ce3d4372477
+
+<h3 id="admin-novo-prato"> Admin - Novo Prato </h3>
+
+https://github.com/Epiled/alfood/assets/55258483/41b29a0a-2048-42df-81c8-0960e8b22f22
+
+<h3 id="admin-editar-prato"> Admin - Editar Prato </h3>
+
+
+<h3 id="admin-excluir-prato"> Admin - Excluir Prato </h3>
 
 
 
-<h3 id="cardapio"> Restaurantes V1 Scroll Infinito </h3>
-
-
-
-<h3 id="cardapio"> Restaurantes V2 Paginação por Páginas </h3>
-
-
-
-<h3 id="sobre"> Admin - Restaurantes </h3>
-
-
-
-<h3 id="prato"> Admin - Novo Restaurante </h3>
-
-
-
-<h3 id="prato"> Admin - Editar Restaurante </h3>
-
-
-
-<h3 id="prato"> Admin - Excluir Restaurante </h3>
-
-
-
-<h3 id="notFound404"> Admin - Pratos </h3>
-
-
-
-<h3 id="notFound404"> Admin - Novo Prato </h3>
-
-
-
-<h3 id="notFound404"> Admin - Editar Prato </h3>
-
-
-
-<h3 id="notFound404"> Admin - Excluir Prato </h3>
-
-
-
-<h3 id="notFound404"> Documentação Swagger </h3>
+<h3 id="documentacao-swagger"> Documentação Swagger </h3>
 
 
 
