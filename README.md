@@ -60,8 +60,15 @@ Dado o foco funcional do projeto, concentrando-se na compreensão do consumo de 
      - [Home](#inicio)
      - [Restaurantes V1 Scroll Infinito](#cardapio)
      - [Restaurantes V2 Paginação por Páginas](#sobre)
-     - [Prato](#prato)
-     - [Not Found 404](#notFound404)
+     - [Admin - Restaurantes](#prato)
+     - [Admin - Novo Restaurante](#notFound404)
+     - [Admin - Editar Restaurante](#notFound404)
+     - [Admin - Excluir Restaurante](#notFound404)
+     - [Admin - Pratos](#notFound404)
+     - [Admin - Novo Prato](#notFound404)
+     - [Admin - Editar Prato](#notFound404)
+     - [Admin - Excluir Prato](#notFound404)
+     - [Documentação Swagger](#notFound404)
    * [Pré-Requisito](#pre-requisito)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
@@ -106,6 +113,10 @@ Dado o foco funcional do projeto, concentrando-se na compreensão do consumo de 
 
 
 
+<h3 id="prato"> Admin - Excluir Restaurante </h3>
+
+
+
 <h3 id="notFound404"> Admin - Pratos </h3>
 
 
@@ -115,6 +126,14 @@ Dado o foco funcional do projeto, concentrando-se na compreensão do consumo de 
 
 
 <h3 id="notFound404"> Admin - Editar Prato </h3>
+
+
+
+<h3 id="notFound404"> Admin - Excluir Prato </h3>
+
+
+
+<h3 id="notFound404"> Documentação Swagger </h3>
 
 
 
