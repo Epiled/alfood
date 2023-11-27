@@ -7,7 +7,8 @@ Projeto do curso <a href="https://cursos.alura.com.br/course/react-integrando-pr
 | :label: Tecnologias | html, css, js, sass, node, react, typescript, css modules, axios, mui, docker, swagger
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![thumb-aluroni-2](https://github.com/Epiled/aluroni-2-router/assets/55258483/4be912b8-cf45-4a92-9431-1e4e8474ac89#vitrinedev)
+
+![alfood](https://github.com/Epiled/alfood/assets/55258483/895836cd-89da-4147-a37d-5b73ba083296#vitrinedev)
 
 <h2 id="detalhes-do-projeto"> 📃 Detalhes do projeto </h2>
 
@@ -127,14 +128,15 @@ https://github.com/Epiled/alfood/assets/55258483/41b29a0a-2048-42df-81c8-0960e8b
 
 <h3 id="admin-editar-prato"> Admin - Editar Prato </h3>
 
+https://github.com/Epiled/alfood/assets/55258483/f7a43bdc-fffc-4d42-8819-fb03c572b234
 
 <h3 id="admin-excluir-prato"> Admin - Excluir Prato </h3>
 
-
+https://github.com/Epiled/alfood/assets/55258483/961ee7d2-c797-4145-8043-8811e6e0ffb8
 
 <h3 id="documentacao-swagger"> Documentação Swagger </h3>
 
-
+https://github.com/Epiled/alfood/assets/55258483/e497d0ac-4c4a-4a00-a7f3-161a96806f3f
 
 <h2 id="pre-requisito"> 🚨 Pré-requisito </h2>
 <ul>
