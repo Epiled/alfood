@@ -179,9 +179,10 @@ Inicie o Dockerc antes de executar os comandos no terminal
 <h3>Inciando o site</h3>
 
 ```
-1. Abra o diretório restaurantes_api_docker no terminal
-2. docker-compose up
-3. Acesse a url http://localhost:8000/
+1. Abra o aplicativo Docker Desktop
+2. Abra o diretório restaurantes_api_docker no terminal
+3. docker-compose up
+4. Acesse a url http://localhost:8000/
 ```
 
 A documentação completa do Swagger, que explica em detalhes o funcionamento e o uso da API, está disponível na URL gerada.

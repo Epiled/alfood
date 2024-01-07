@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import IRestaurante from '../../interfaces/IRestaurante';
 import style from './ListaRestaurantes.module.scss';
 import Restaurante from './Restaurante';
 import axios from 'axios';
+import IRestaurante from '../../interfaces/IRestaurante';
 import { IPaginacao } from '../../interfaces/IPaginacao';
 import { Button, TextField } from '@mui/material';
 
